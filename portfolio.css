@@ -1,0 +1,131 @@
+header .profile-image {
+	object-position: center;
+	width: 200px;
+	height: 200px;
+	border-radius: 45%;
+	border: 3px solid white;
+	transition: all .5s;
+}
+header .profile-image:hover {
+	transform: scale(1.2);
+}
+.banner{
+	background-image: url(Images/Pattern.png);
+	background-position: center;
+	background-width: 350px;
+	background-height: 250px;
+	background-size: contain;
+	background-origin: content-box;
+}
+.tag {
+	align-content: center;
+	background-color: white;
+	padding: 10px;
+	border-radius: 5px;
+	display: table;
+	margin: 5px auto;
+}
+h1 {
+	border: solid white 3px;
+	border-radius: 10px;
+	background-color: white;
+	padding: 20px;
+	color: red;
+	-webkit-text-stroke-width: 0.5px; 
+	-webkit-text-stroke-color: black;
+	font: bold 2.5em "Verdana", Geneva, sans-serif;
+	text-align: center;
+	display: table;
+	margin: 0px auto;
+}
+p {
+	color: yellow;
+	-webkit-text-stroke-width: 0.5px; 
+	-webkit-text-stroke-color: black;
+	font: bold 1.0em "Verdana", Geneva, sans-serif;
+	text-align: center;
+	border: solid white 3px;
+	border-radius: 1px;
+	background-color: white;
+	padding: 5px;
+	display: table;
+	margin: 0px auto;
+}
+.card {
+	padding: 10px 50px 50px;
+	text-align: left;
+	background: white;
+	border-bottom: 4px solid #ccc;
+	display: block;
+	justify-content: space-between;
+	border-style: solid;
+	border-color: lightblue;
+}
+h3 {
+	background-color: white;
+	color: blue;
+	-webkit-text-stroke-width: 0.5px; 
+	-webkit-text-stroke-color: black;
+	font: bold 2.0em "Verdana", Geneva, sans-serif;
+	text-align: center;
+	margin-top: 5px auto;
+}
+.grid{
+	display: grid;
+	grid-template-columns: auto auto auto auto;
+  	grid-gap: 3px;
+  	object-position: center;
+  	align-items: center;
+}
+.point {
+	align-items: center;
+	display: table-caption;
+	background-color: white;
+	padding: 10px;
+	border-radius: 5px;
+	background-color: white;
+	font: normal 1.5em "Verdana", Geneva, sans-serif;
+}
+
+.pointers {
+	align-items: center;
+	width: 100px;
+	height: 100px;
+	border-radius: 45%;
+	border: 3px solid white;
+	transition: all .5s;
+}
+.pointers:hover {
+	transform: scale(2.0);
+}
+
+footer .social-twitter{
+	align-content: center;
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	border: 3px solid white;
+}
+footer .social-instagram{
+	align-content: center;
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	border: 3px solid white;
+}
+.bottom{
+	align-content: center;
+	text-align: center;
+	font: italic 0.5em "Verdana", Geneva, sans-serif;
+}
+
+.column {
+	float: left;
+	width: 50%;
+}
+
+.row {
+	content: "";
+	display: table;
+	clear: both;
+}
